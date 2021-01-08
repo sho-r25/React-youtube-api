@@ -1,11 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'normalize.css'
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {StorePovider} from './store/index'
 
 ReactDOM.render(
   <React.StrictMode>
+    <StorePovider>
     <App />
+    </StorePovider>
   </React.StrictMode>,
   document.getElementById('root')
 );
