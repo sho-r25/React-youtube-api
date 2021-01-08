@@ -1,10 +1,11 @@
 import React from 'react'
 import Layout from '../components/Layout/Layout'
+import VideoDetail from '../components/VideoDetail/VideoDetail'
 
 function Watch() {
   return (
     <Layout>
-      Watch page
+      <VideoDetail />
     </Layout>
   )
 }
